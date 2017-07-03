@@ -16,11 +16,11 @@ Input keys:
   version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.triti.ds.googlechrome</string>
+    <string>com.github.ocadu.ds.googlechrome</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
-        <string>/Volumes/DeployStudio/Packages</string>
+        <string>/Volumes/Storage/DeployStudioFS/Packages</string>
         <key>DS_NAME</key>
         <string>%NAME%</string>
     </dict>

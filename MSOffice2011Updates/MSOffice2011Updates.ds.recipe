@@ -15,7 +15,7 @@ Input keys:
   It defaults to %NAME% (as specified earlier); use %pkgname% if you want the version number included.
 </string>
     <key>Identifier</key>
-    <string>com.github.jazzace.ds.Office2011Updates</string>
+    <string>com.github.ocadu.ds.Office2011Updates</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -25,7 +25,7 @@ Input keys:
         <key>CULTURE_CODE</key>
         <string>0409</string>
         <key>DS_PKGS_PATH</key>
-        <string>/Volumes/DSServer/Users/Shared/Deploy/Packages</string>
+        <string>/Volumes/Storage/DeployStudioFS/Packages</string>
         <key>DS_NAME</key>
         <string>%NAME%</string>
     </dict>

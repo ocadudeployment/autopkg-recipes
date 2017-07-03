@@ -19,11 +19,11 @@ Input keys:
   It defaults to %NAME% (just the app name); use %pkgname% if you want the version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.yourgithubusername.ds.____</string>
+    <string>com.github.ocadu.ds.____</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
-        <string>/Volumes/DSServer/Users/Shared/Deploy/Packages</string>
+        <string>/Volumes/Storage/DeployStudioFS/Packages</string>
         <key>DS_NAME</key>
         <string>%NAME%</string>
     </dict>

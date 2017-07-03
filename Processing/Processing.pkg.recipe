@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Download Processing and create a package.</string>
 	<key>Identifier</key>
-	<string>com.github.jazzace.pkg.processing</string>
+	<string>com.github.ocadu.pkg.processing</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
