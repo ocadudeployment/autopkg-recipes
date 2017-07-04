@@ -14,7 +14,7 @@
 	<string>OSX10.9</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.grahamgilbert.download.outset</string>
+    <string>com.github.patgmac.pkg.outset</string>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>Process</key>
