@@ -11,7 +11,7 @@ Input keys:
   It defaults to %NAME% (just the app name); use %pkgname% if you want the version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.ocadu.ds.MAU</string>
+    <string>com.github.ocadu.ds.MSAutoUpdate</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
@@ -22,7 +22,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.MSAutoUpdate</string>
+    <string>com.github.ocadu.pkg.MSAutoUpdate</string>
     <key>Process</key>
     <array>
         <dict>
