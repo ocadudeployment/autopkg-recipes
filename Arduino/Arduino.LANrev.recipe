@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Autopkg recipe to add Audacity updates to LANrev</string>
+	<string>Autopkg recipe to add Arduino updates to LANrev</string>
 	<key>Identifier</key>
 	<string>com.github.ocadu.lanrev.arduino</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Audacity</string>
+		<string>Arduino</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
