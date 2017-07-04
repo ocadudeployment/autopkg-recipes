@@ -22,7 +22,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.arubdesu.pkg.MAU</string>
+    <string>com.github.autopkg.download.pkg.MSAutoUpdate</string>
     <key>Process</key>
     <array>
         <dict>
