@@ -12,7 +12,7 @@ Input keys:
   It defaults to %NAME% (just the app name).
 </string>
     <key>Identifier</key>
-    <string>om.github.ocadu.ds.MSOffice2016Suite</string>
+    <string>com.github.ocadu.ds.MSOffice2016Suite</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
