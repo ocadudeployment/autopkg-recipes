@@ -9,12 +9,12 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Microsoft_OneDrive</string>
+        <string>OneDrive</string>
 	<key>min_os</key>
 	<string>OSX10.9</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.rtrouton.pkg.MicrosoftOneDrive</string>
+    <string>com.github.apettinen.download.MSOneDrive</string>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>Process</key>
