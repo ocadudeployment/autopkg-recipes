@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>%NAME%</string>
+        <string>Microsoft_OneDrive</string>
 	<key>min_os</key>
 	<string>OSX10.9</string>
     </dict>
