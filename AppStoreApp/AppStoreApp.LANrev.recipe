@@ -15,9 +15,11 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>OneDrive</string>
+        <string>AppStoreApp</string>
+        <key>PATH</key>
+        <string>/Applications/%NAME%.app</string>
 	<key>min_os</key>
-	<string>OSX10.9</string>
+	<string>OSX10.10</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.nmcspadden.pkg.appstore</string>
