@@ -21,7 +21,7 @@ Input keys:
         <key>DS_PKGS_PATH</key>
         <string>/Volumes/Storage/DeployStudioFS/Packages</string>
         <key>DS_NAME</key>
-        <string>OneDrive</string>
+        <string>%NAME%</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
