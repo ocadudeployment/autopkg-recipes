@@ -43,7 +43,7 @@ Input keys:
                 <key>source_path</key>
                 <string>%RECIPE_CACHE_DIR%/downloads/Microsoft_Word.pkg</string>
                 <key>destination_path</key>
-                <string>%DS_PKGS_PATH%/%NAME%.pkg</string>
+                <string>%DS_PKGS_PATH%/Microsoft_Word.pkg</string>
                 <key>overwrite</key>
                 <true/>
             </dict>

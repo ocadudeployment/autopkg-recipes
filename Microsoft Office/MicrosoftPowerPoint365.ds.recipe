@@ -41,9 +41,9 @@ Input keys:
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/%NAME%pkg</string>
+                <string>%RECIPE_CACHE_DIR%/downloads/Microsoft_Powerpoint.pkg</string>
                 <key>destination_path</key>
-                <string>%DS_PKGS_PATH%/%DS_NAME%.pkg</string>
+                <string>%DS_PKGS_PATH%/Microsoft_Powerpoint.pkg</string>
                 <key>overwrite</key>
                 <true/>
             </dict>
