@@ -14,7 +14,7 @@
 	<string>OSX10.9</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.hansen-m.download.zoomus</string>
+    <string>com.ocadu.pkg.zoom</string>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>Process</key>
@@ -29,7 +29,7 @@
                 <key>sdpackages_ampkgprops_path</key>
                 <string>%RECIPE_DIR%/%NAME%-Defaults.ampkgprops</string>
                 <key>source_payload_path</key>
-                <string>%pathname%</string>
+                <string>%pkg_path%</string>
                 <key>import_pkg_to_servercenter</key>
                 <true/>
             </dict>
