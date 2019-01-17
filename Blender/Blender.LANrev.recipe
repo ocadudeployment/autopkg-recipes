@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hjuutilainen.pkg.Blender</string>
+	<string>io.github.hjuutilainen.pkg.Blender</string>
 	<key>Process</key>
 	<array>
 		<dict>
