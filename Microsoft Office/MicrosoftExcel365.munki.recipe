@@ -63,7 +63,7 @@ installer for the given CHANNEL. 'latest-standalone' does not support
         </dict>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.rtrouton.pkg.MicrosoftExcel365</string>
+    <string>com.github.rtrouton.pkg.microsoftexcel365</string>
     <key>Process</key>
     <array>
         <dict>
