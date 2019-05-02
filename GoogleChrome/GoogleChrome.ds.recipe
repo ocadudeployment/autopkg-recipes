@@ -44,9 +44,9 @@ Input keys:
             <key>Arguments</key>
             <dict>
                 <key>source_pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-                <key>destination_pkg</key>
                 <string>%pkg_path%</string>
+                <key>destination_pkg</key>
+                <string>%RECIPE_CACHE_DIR%/%pkg_path%-dist.pkg</string>
             </dict>
             <key>SharedProcessorRepoURL</key>
             <string>https://github.com/ocadudeployment/autopkg-recipes</string>
@@ -57,7 +57,7 @@ Input keys:
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pkg_path%</string>
+                <string>%pkg_path%-dist.pkg</string>
                 <key>destination_path</key>
                 <string>%DS_PKGS_PATH%/%DS_NAME%.pkg</string>
                 <key>overwrite</key>
