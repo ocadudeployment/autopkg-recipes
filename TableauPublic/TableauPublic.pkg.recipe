@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest Tableau Public disk image and makes a pkg.</string>
 	<key>Identifier</key>
-	<string>com.github.ocadu.pkg.tableau-public</string>
+	<string>com.github.ocadu.pkg.TableauPublic</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

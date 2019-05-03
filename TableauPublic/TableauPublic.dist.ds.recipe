@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest OneDrive installer and then copies it to the DeployStudio packages repository.
+    <string>Downloads latest Tableau Public installer, packages it, 
+    converts it to a distribution package and copies it to the DeployStudio 
+    packages repository.
 Input keys:
 - DS_PKGS_PATH is the path for the Packages folder in the DeployStudio 
   repository (trailing slash not required/desired).
@@ -15,7 +17,7 @@ Input keys:
   version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.ocadu.ds.GoogleChrome</string>
+    <string>com.github.ocadu.ds.dist.TableauPublic</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
@@ -26,7 +28,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.googlechrome</string>
+    <string>com.github.ocadu.pkg.TableauPublic</string>
     <key>Process</key>
     <array>
         <dict>
@@ -37,6 +39,19 @@ Input keys:
                 <key>predicate</key>
                 <string>download_changed == FALSE</string>
             </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.ocadu.SharedProcessors/DistPkgConverter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source_pkg_path</key>
+                <string>%pkg_path%</string>
+                <key>destination_pkg</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
+            </dict>
+            <key>SharedProcessorRepoURL</key>
+            <string>https://github.com/ocadudeployment/autopkg-recipes</string>
         </dict>
         <dict>
             <key>Processor</key>
