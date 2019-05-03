@@ -38,7 +38,7 @@ class DistPkgConverter(Processor):
             'required': True,
         },
         'destination_pkg': {
-            'description': 'Name of destination pkg to be built',
+            'description': 'Path of destination pkg to be built',
             'required': True,
         },
     }
