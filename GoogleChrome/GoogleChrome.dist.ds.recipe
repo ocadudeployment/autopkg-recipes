@@ -46,7 +46,7 @@ Input keys:
                 <key>source_pkg_path</key>
                 <string>%pkg_path%</string>
                 <key>destination_pkg</key>
-                <string>%RECIPE_CACHE_DIR%/%pkg_path%-dist.pkg</string>
+                <string>%pkg_path%-dist.pkg</string>
             </dict>
             <key>SharedProcessorRepoURL</key>
             <string>https://github.com/ocadudeployment/autopkg-recipes</string>
