@@ -65,4 +65,4 @@ class DistPkgConverter(Processor):
 
 if __name__ == '__main__':
     PROCESSOR = DistPkgConverter()
-PROCESSOR.execute_shell()
+    PROCESSOR.execute_shell()
