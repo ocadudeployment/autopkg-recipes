@@ -1,4 +1,4 @@
-!/usr/bin/python
+#!/usr/bin/python
 #
 # Copyright 2019 C Stott
 #
