@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# Borrowed Code/Concept from AutoPkg FlatPkgPacker.py in Autopkg core, by Jesse Peterson 
+# Borrowed Code from AutoPkg FlatPkgPacker.py in Autopkg core, by Jesse Peterson 
 
 """See docstring for DistPkgConverter class"""
 
