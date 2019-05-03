@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Autopkg recipe to add Tableau Public updates to LANrev</string>
 	<key>Identifier</key>
-	<string>com.github.ocadu.lanrev.tableau-public</string>
+	<string>com.github.ocadu.lanrev.TableauPublic</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ocadu.pkg.tableau-public</string>
+	<string>com.github.ocadu.pkg.TableauPublic</string>
 	<key>Process</key>
 	<array>
 		<dict>
