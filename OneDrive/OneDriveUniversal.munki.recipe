@@ -7,7 +7,7 @@
     <key>Identifier</key>
     <string>ca.ocadu.munki.microsoftonedriveuniversal</string>
     <key>ParentRecipe</key>
-    <string>com.github.rtrouton.download.microsoftonedriveuniversal</string>
+    <string>com.github.rtrouton.download.microsoftuniversalonedrive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
