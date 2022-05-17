@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Microsoft OneDrive Universal installer and imports into Munki.</string>
     <key>Identifier</key>
-    <string>ca.ocadu.munki.microsoftonedriveuniversal</string>
+    <string>com.github.ocadudeployment.munki.microsoftonedriveuniversal</string>
     <key>ParentRecipe</key>
     <string>com.github.rtrouton.download.microsoftuniversalonedrive</string>
     <key>Input</key>
