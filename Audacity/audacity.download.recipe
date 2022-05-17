@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Audacity DMG from GitHub, linked from the Mac Download page.</string>
     <key>Identifier</key>
-    <string>com.github.ocadu.download.Audacity</string>
+    <string>com.github.ocadu.download.audacity</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
