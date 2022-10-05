@@ -13,7 +13,7 @@
         <key>SEARCH_URL</key>
         <string>https://www.audacityteam.org/download/mac</string>
         <key>SEARCH_PATTERN</key>
-        <string>https://github.com/audacity/audacity/releases/download/Audacity-[\S]+\/audacity-macos-[\S]+\-Intel.dmg</string>
+        <string>https://github.com/audacity/audacity/releases/download/Audacity-[\S]+\/audacity-macos-[\S]+\-x86_64.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
